@@ -1,0 +1,115 @@
+/* Reset default margin, padding, font-family, and box-sizing for all elements */
+* {
+    margin: 0; /* Set margin to 0 for all sides */
+    padding: 0; /* Set padding to 0 for all sides */
+    font-family: 'Times New Roman', Courier, monospace; /* Specify font-family */
+    box-sizing: border-box; /* Use border-box box model */
+}
+
+/* Set the background color of the body */
+body {
+    background: linear-gradient(100deg, rgb(36, 36, 35), #6a0a0a); /* Apply gradient background */
+}
+
+.container {
+    width: 90%; /* Set width to 90% of its containing block */
+    max-width: 650px; /* Set maximum width to 650px */
+    background: linear-gradient(to bottom, #f0f0f0, #c0c0c0, #a0a0a0); /* Apply gradient background */
+    color: #fff; /* Set text color to white */
+    margin: 120px auto 0; /* Set top margin to 120px, auto horizontal margin, and 0 bottom margin */
+    border-radius: 20px; /* Apply border radius */
+    padding-left: 30px; /* Apply left padding */
+    padding-bottom: 10px;
+}
+
+h1 {
+    color: blueviolet;
+    display: flex;
+    align-items: center;
+    padding-top: 25px;
+    margin-bottom: 20px;
+    margin-left: 45px;
+}
+
+h1 img {
+
+    width: 50px;
+    margin-left: 15px;
+    margin-right: 5px;
+}
+
+.input {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+input {
+
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-weight: 20px;
+    border-radius: 10px;
+}
+
+button {
+
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    padding: 10px 10px;
+    font-size: 17px;
+    cursor: pointer;
+    margin-left: 5px;
+
+}
+
+.listItems {
+    text-align: left; /* Align text to the left */
+    padding-left: 30px; /* Apply left padding */
+    padding-top: 15px; /* Apply top padding */
+}
+
+ul#listAllItems li {
+    font-size: 25px; /* Set font size for list items */
+    margin-bottom: 10px; /* Add margin to create space between list items */
+    display: flex; /* Use flexbox layout */
+    align-items: center; /* Center align items vertically */
+    cursor: pointer;
+    padding: 8px; /* Add padding for better spacing */
+    margin-bottom: 5px; /* Add margin between list items */
+    border-radius: 30px;
+    color: black;
+}
+
+/* Reduce size and align the image vertically */
+.container .item-image {
+    width: 40px; /* Set the width of the image */
+    height: 40px; /* Automatically adjust height */
+    cursor: pointer;
+    margin-right: 650px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+
+}
+
+/* Adjust font size for list items */
+ul#listAllItems li {
+    font-size: 25px; /* Set font size for list items */
+}
+
+.completed {
+    text-decoration: line-through; /* Add a line-through text decoration */
+    color: black;
+    cursor: pointer;
+    background-color: lightgreen;
+}
